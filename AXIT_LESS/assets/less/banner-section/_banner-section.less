@@ -1,0 +1,46 @@
+.banner {
+  background-image: url("../img/u2_state0.jpg");
+  background-repeat: no-repeat;
+}
+
+.banner--bg {
+  background-color: rgba(@banner-background, 0.52);
+}
+
+.banner--wrapper {
+  .display-flex-space-between;
+  align-items: flex-end;
+  margin-top: -5px;
+  padding-top: 110px;
+  padding-bottom: 139px;
+  padding-left: 70px;
+}
+
+.banner-content {
+  max-width: 520px;
+}
+
+.banner-title {
+  .Raleway;
+  color: @color-font-white;
+  font-size: @h1-font-size;
+  text-transform: uppercase;
+  margin-top: 22px;
+
+  &:after {
+    content: '';
+    display: block;
+    width: 64px;
+    height: 2px;
+    background-color: @line-banner-background;
+    margin: 32px 0 35px 3px;
+  }
+}
+.banner-info {
+  .Raleway-Light;
+  font-size: @subtitle-h1-font-size;
+  line-height: 23px;
+  color: rgba(@color-font-white, 0.8);
+  margin-left: 2px;
+  margin-bottom: 42px;
+}

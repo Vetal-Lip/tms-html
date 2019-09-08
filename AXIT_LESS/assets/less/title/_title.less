@@ -1,0 +1,52 @@
+//title's section
+.title {
+  //margin: 105px auto 80px auto;
+  padding: 105px 0 80px 0;
+  margin: 0 auto;
+  text-align: center;
+
+  &-item {
+    .Raleway;
+    text-transform: uppercase;
+    font-size: @h1-font-size;
+    margin: 0;
+    color: @title-section-color;
+    line-height: 43px;
+
+    &:after {
+      content: '';
+      display: block;
+      width: 64px;
+      height: 2px;
+      background-color: @line-background;
+      margin: 30px auto;
+    }
+  }
+
+  &-info {
+    .OpenSans;
+    color: @content-info-color;
+    font-size: @body-font-size;
+    line-height: 20px;
+    margin: 0;
+  }
+}
+
+//title's modifications in _design section
+.title--design {
+  padding: 0;
+  margin-bottom: 33px;
+}
+
+.title-item--color {
+  color: @color-font-white;
+}
+
+.title-info--color {
+  color: rgba(@color-font-white, 0.8);
+}
+
+//title's modifications in _contact section
+.title--contact {
+  padding-bottom: 0;
+}

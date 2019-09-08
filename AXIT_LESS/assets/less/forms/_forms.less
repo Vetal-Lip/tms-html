@@ -1,0 +1,76 @@
+//form in banner section
+.banner-form {
+  max-width: 360px;
+  background-color: @form-background;
+  border-radius: 3px;
+
+  &__wrapper {
+    margin: 0 auto;
+  }
+
+  &__register {
+    margin: 0;
+    padding: 0;
+    width: 360px;
+    overflow: hidden;
+    border-radius: 3px;
+  }
+}
+
+.banner-form__title {
+  margin: 0;
+  .OpenSans-Bold;
+  font-size: @form-title-font-size;
+  color: @color-font-black;
+  text-transform: capitalize;
+  text-align: center;
+  background-color: @form-title-background;
+  padding-top: 20px;
+  padding-bottom: 15px;
+
+  & span {
+    text-transform: uppercase;
+    color: @form-title-color;
+  }
+}
+
+.banner-form__group {
+  text-align: center;
+
+  &--name {
+    margin-top: 30px;
+  }
+
+  &--email {
+    margin-top: 37px;
+  }
+
+  &--password {
+    margin-top: 47px;
+  }
+
+  & input[type=text],
+  input[type=email],
+  input[type=password] {
+    width: 287px;
+    border: none;
+    box-shadow: 0 1px 0 0 rgba(@shadow-color, 0.16);
+    padding-bottom: 10px;
+  }
+}
+
+.banner-name,
+.banner-email,
+.banner-pswrd {
+  font-family: "OpenSans", Arial, sans-serif;
+  padding-left: 13px;
+  color: #bdbdbd;
+  font-size: 14px;
+
+}
+
+
+
+
+
+

@@ -1,0 +1,43 @@
+.contact-wrapper {
+  padding-top: 90px;
+  padding-bottom: 83px;
+}
+
+.contact-form__mainwrapper {
+  .display-flex-space-between;
+  margin-bottom: 42px;
+}
+
+.contact-form__group {
+  padding-bottom: 29px;
+  color: @contact-form-color;
+
+  & input[type=text], input[type=email] {
+    width: 527px;
+    border: none;
+    box-shadow: 0 1px 0 0 rgba(@shadow-color, 0.16);
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 13px;
+    .OpenSans;
+    font-size: @body-font-size;
+  }
+
+  &:last-child {
+    padding-bottom: 0;
+  }
+}
+
+.contact-message textarea {
+  width: 527px;
+  border: none;
+  box-shadow: 0 1px 0 0 rgba(@shadow-color, 0.16);
+  padding: 0;
+  padding-top: 5px;
+  padding-bottom: 15px;
+  padding-left: 13px;
+  .OpenSans;
+  font-size: @body-font-size;
+  height: 155px;
+  resize: none;
+}

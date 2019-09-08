@@ -1,0 +1,38 @@
+header {
+  margin: 0;
+  padding: 0;
+
+}
+
+.navbar {
+  .display-flex-space-between;
+
+}
+
+.logo {
+  padding: 22px 0;
+  padding-left: 36px;
+}
+
+.menu {
+  display: flex;
+  list-style: none;
+  margin: 23px 0;
+}
+
+.menu-item {
+  margin-right: 40px;
+
+  &__link {
+    color: rgba(@color-font-white, 0.69);
+    text-decoration: none;
+  }
+
+  &__link:hover {
+    color: @color-font-white;
+  }
+
+  &:last-child {
+    margin-right: 0;
+  }
+}
