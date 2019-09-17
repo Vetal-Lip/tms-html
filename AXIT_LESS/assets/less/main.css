@@ -326,6 +326,14 @@ header {
   padding: 0;
   margin-bottom: 33px;
 }
+.title-item--color:after {
+  content: '';
+  display: block;
+  width: 64px;
+  height: 2px;
+  background-color: #ffffff;
+  margin: 30px auto;
+}
 .title-item--color {
   color: #ffffff;
 }
